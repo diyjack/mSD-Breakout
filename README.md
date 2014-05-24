@@ -9,6 +9,7 @@ Shop: [mSD-Breakout](http://www.watterott.com/en/mSD-Breakout)
 ## Features
 * microSD socket
 * 5V tolerant inputs (level shifter)
+* on-board 3.3V voltage regulator
 
 
 ## Hardware
