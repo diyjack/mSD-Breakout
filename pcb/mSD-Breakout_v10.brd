@@ -942,11 +942,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="18.7325" y="8.73125" size="0.8128" layer="27" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="17.78" y="7.9375" size="0.8128" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="C2" library="rcl" package="C0603" value="1uF" x="24.60625" y="6.19125" smashed="yes" rot="R270">
+<element name="C2" library="rcl" package="C0603" value="2uF" x="24.60625" y="6.19125" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.97125" y="3.81" size="0.8128" layer="27" font="vector" ratio="10"/>
 <attribute name="VALUE" x="24.28875" y="3.65125" size="0.8128" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="C5" library="rcl" package="C0603" value="1uF" x="19.52625" y="6.19125" smashed="yes" rot="R270">
+<element name="C5" library="rcl" package="C0603" value="2uF" x="19.52625" y="6.19125" smashed="yes" rot="R270">
 <attribute name="NAME" x="18.89125" y="3.81" size="0.8128" layer="27" font="vector" ratio="10"/>
 <attribute name="VALUE" x="19.20875" y="3.65125" size="0.8128" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
@@ -976,11 +976,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="7.46125" y="4.445" size="0.8128" layer="27" font="vector"/>
 <attribute name="VALUE" x="9.04875" y="3.4925" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="C6" library="rcl" package="C0603" value="1uF" x="17.62125" y="6.19125" smashed="yes" rot="R270">
+<element name="C6" library="rcl" package="C0603" value="2uF" x="17.62125" y="6.19125" smashed="yes" rot="R270">
 <attribute name="NAME" x="16.98625" y="3.81" size="0.8128" layer="27" font="vector" ratio="10"/>
 <attribute name="VALUE" x="17.30375" y="3.65125" size="0.8128" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="C1" library="rcl" package="C0603" value="1uF" x="26.51125" y="6.19125" smashed="yes" rot="R270">
+<element name="C1" library="rcl" package="C0603" value="2uF" x="26.51125" y="6.19125" smashed="yes" rot="R270">
 <attribute name="NAME" x="25.87625" y="3.81" size="0.8128" layer="27" font="vector" ratio="10"/>
 <attribute name="VALUE" x="26.19375" y="3.65125" size="0.8128" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>

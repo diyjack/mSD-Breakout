@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -12782,10 +12782,10 @@ wide body 7.5 mm/JEDEC MS-013AC</description>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="2uF"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="2uF"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="SD" library="we-con" deviceset="SD-CARD" device="-MSD50"/>
 <part name="IC2" library="we-power" deviceset="LDO" device="-TS5204"/>
@@ -12805,8 +12805,8 @@ wide body 7.5 mm/JEDEC MS-013AC</description>
 <part name="LOGO1" library="we-symbol" deviceset="OSHW_LOGO" device="X0100" value="OSHW_LOGOX0100"/>
 <part name="LOGO2" library="we-symbol" deviceset="LOGO" device="-SPARK_PLACE"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="2uF"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="2uF"/>
 <part name="L1" library="we-opto" deviceset="LED" device="-0603"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -12817,6 +12817,8 @@ wide body 7.5 mm/JEDEC MS-013AC</description>
 <text x="161.29" y="31.75" size="1.27" layer="95">Released under the Creative Commons Attribution Share-Alike License</text>
 <text x="161.29" y="29.21" size="1.27" layer="95">http://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="161.29" y="25.4" size="1.27" layer="95">Designed by Andreas Watterott (Watterott electronic)</text>
+<text x="152.4" y="68.58" size="1.778" layer="97">Card inserted: CD shorted to GND</text>
+<text x="152.4" y="66.04" size="1.778" layer="97">No Card: CD open</text>
 </plain>
 <instances>
 <instance part="GND9" gate="1" x="101.6" y="10.16" smashed="yes">
