@@ -14,3 +14,15 @@ Shop: [mSD-Breakout](http://www.watterott.com/en/mSD-Breakout)
 
 ## Hardware
 * [Schematics + Layout](https://github.com/watterott/mSD-Breakout/tree/master/pcb)
+
+* Arduino Uno Connection (Example Sketch: File->Examples->SD->CardInfo):
+    ```
+    Uno -> Breakout
+    ---------------
+    5V  -> 5V
+    GND -> GND
+    D13 -> CLK
+    D12 -> D0 (MISO)
+    D11 -> DI (MOSI)
+    D4  -> CS
+    ```
