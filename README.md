@@ -22,7 +22,7 @@ Shop: [mSD-Breakout](http://www.watterott.com/en/mSD-Breakout)
     5V  -> 5V
     GND -> GND
     D13 -> CLK
-    D12 -> D0 (MISO)
+    D12 -> DO (MISO)
     D11 -> DI (MOSI)
     D4  -> CS
     ```
