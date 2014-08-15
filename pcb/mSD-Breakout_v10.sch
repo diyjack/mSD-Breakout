@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12788,7 +12788,7 @@ wide body 7.5 mm/JEDEC MS-013AC</description>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="2uF"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="SD" library="we-con" deviceset="SD-CARD" device="-MSD50"/>
-<part name="IC2" library="we-power" deviceset="LDO" device="-TS5204"/>
+<part name="IC2" library="we-power" deviceset="LDO" device="-TS5204" value="LDO-TS5204-3V3"/>
 <part name="IC1" library="we-chip" deviceset="74*244" device="PW" technology="LVC" value="74LVC244APW"/>
 <part name="J1" library="we-con" deviceset="MA08-1" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>

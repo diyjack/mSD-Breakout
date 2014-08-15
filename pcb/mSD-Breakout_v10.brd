@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -953,7 +953,7 @@ design rules under a new name.</description>
 <element name="SD" library="we-con" package="SD_5031821853" value="SD-CARD-MSD50" x="1.74625" y="13.6525" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="WM9750TR-ND" x="1.74625" y="13.6525" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="IC2" library="we-power" package="SOT23" value="LDO-TS5204" x="22.06625" y="8.73125" smashed="yes">
+<element name="IC2" library="we-power" package="SOT23" value="LDO-TS5204-3V3" x="22.06625" y="8.73125" smashed="yes">
 <attribute name="NAME" x="21.11375" y="5.55625" size="0.8128" layer="27" font="vector" ratio="10"/>
 <attribute name="VALUE" x="18.25625" y="10.795" size="0.8128" layer="27" font="vector" ratio="10"/>
 </element>
