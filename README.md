@@ -7,7 +7,7 @@ Shop: [mSD-Breakout](http://www.watterott.com/en/mSD-Breakout)
 
 
 ## Features
-* microSD socket
+* microSD socket (SPI) support SD and SDHC cards (up to 32GB)
 * 5V tolerant inputs (level shifter)
 * on-board 3.3V voltage regulator
 
