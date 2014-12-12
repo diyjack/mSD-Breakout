@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4392,51 +4392,6 @@ Metric Code Size 5664</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="frames">
-<packages>
-</packages>
-<symbols>
-<symbol name="A4L-LOC">
-<wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="19.05" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="161.29" y1="3.81" x2="161.29" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="161.29" y1="24.13" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="3.81" x2="246.38" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="8.89" x2="215.265" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="8.89" x2="215.265" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="8.89" x2="215.265" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
-<text x="217.17" y="15.24" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
-<text x="217.17" y="10.16" size="2.286" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
-<text x="230.505" y="5.08" size="2.54" layer="94" font="vector">&gt;SHEET</text>
-<text x="216.916" y="4.953" size="2.54" layer="94" font="vector">Sheet:</text>
-<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="A4L-LOC" prefix="FRAME" uservalue="yes">
-<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
-DIN A4, landscape with location and doc. field</description>
-<gates>
-<gate name="G$1" symbol="A4L-LOC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12421,6 +12376,30 @@ wide body 7.5 mm/JEDEC MS-013AC</description>
 <wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
 <text x="-3.429" y="-0.635" size="1.778" layer="94">Logo</text>
 </symbol>
+<symbol name="A4L-LOC">
+<wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="19.05" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="3.81" x2="161.29" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="24.13" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="3.81" x2="246.38" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="8.89" x2="215.265" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
+<text x="217.17" y="15.24" size="2.032" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="217.17" y="10.16" size="2.032" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="230.505" y="5.08" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="217.17" y="5.08" size="2.54" layer="94" font="vector">Sheet:</text>
+<text x="217.17" y="20.32" size="2.032" layer="94" font="vector">www.watterott.com</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PASSER" prefix="X">
@@ -12493,6 +12472,19 @@ wide body 7.5 mm/JEDEC MS-013AC</description>
 </technologies>
 </device>
 <device name="-SPARK_PLACE" package="SPARK_TPLACE">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FRAME-A4L" prefix="FRAME" uservalue="yes">
+<description>Frame: DIN A4 Landscape</description>
+<gates>
+<gate name="G$1" symbol="A4L-LOC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12742,7 +12734,6 @@ wide body 7.5 mm/JEDEC MS-013AC</description>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="2uF"/>
-<part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="2uF"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
@@ -12769,13 +12760,14 @@ wide body 7.5 mm/JEDEC MS-013AC</description>
 <part name="L1" library="we-opto" deviceset="LED" device="-0603"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
+<part name="FRAME1" library="we-symbol" deviceset="FRAME-A4L" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="161.29" y="31.75" size="1.27" layer="95">Released under the Creative Commons Attribution Share-Alike License</text>
-<text x="161.29" y="29.21" size="1.27" layer="95">http://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="161.29" y="25.4" size="1.27" layer="95">Designed by Andreas Watterott (Watterott electronic)</text>
+<text x="162.56" y="21.59" size="1.27" layer="95">Released under the Creative Commons Attribution Share-Alike License</text>
+<text x="162.56" y="19.05" size="1.27" layer="95">http://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="162.56" y="15.24" size="1.27" layer="95">Designed by Andreas Watterott (Watterott electronic)</text>
 <text x="152.4" y="68.58" size="1.778" layer="97">Card inserted: CD shorted to GND</text>
 <text x="152.4" y="66.04" size="1.778" layer="97">No Card: CD open</text>
 </plain>
@@ -12794,11 +12786,6 @@ wide body 7.5 mm/JEDEC MS-013AC</description>
 <instance part="C2" gate="G$1" x="82.55" y="17.78" smashed="yes">
 <attribute name="NAME" x="82.296" y="14.732" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="80.645" y="10.033" size="1.778" layer="96"/>
-</instance>
-<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
-<attribute name="DRAWING_NAME" x="217.17" y="15.24" size="2.54" layer="94" font="vector"/>
-<attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94" font="vector"/>
-<attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94" font="vector"/>
 </instance>
 <instance part="+3V4" gate="G$1" x="133.35" y="20.32" smashed="yes" rot="R270">
 <attribute name="VALUE" x="135.89" y="17.78" size="1.778" layer="96" rot="R90"/>
@@ -12840,11 +12827,11 @@ wide body 7.5 mm/JEDEC MS-013AC</description>
 <instance part="GND10" gate="1" x="95.25" y="101.6" smashed="yes" rot="R270">
 <attribute name="VALUE" x="92.71" y="104.14" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="X1" gate="G$1" x="167.64" y="17.78"/>
-<instance part="X2" gate="G$1" x="173.99" y="17.78"/>
-<instance part="X3" gate="G$1" x="180.34" y="17.78"/>
-<instance part="LOGO1" gate="G$1" x="205.74" y="17.78"/>
-<instance part="LOGO2" gate="G$1" x="191.77" y="17.78"/>
+<instance part="X1" gate="G$1" x="165.1" y="7.62"/>
+<instance part="X2" gate="G$1" x="170.18" y="7.62"/>
+<instance part="X3" gate="G$1" x="175.26" y="7.62"/>
+<instance part="LOGO1" gate="G$1" x="198.12" y="7.62"/>
+<instance part="LOGO2" gate="G$1" x="208.28" y="7.62"/>
 <instance part="R1" gate="G$1" x="139.7" y="130.81" smashed="yes" rot="R270">
 <attribute name="NAME" x="141.1986" y="132.08" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="138.938" y="131.445" size="1.778" layer="96" rot="R270"/>
@@ -12864,6 +12851,7 @@ wide body 7.5 mm/JEDEC MS-013AC</description>
 <instance part="GND1" gate="1" x="95.25" y="80.01" smashed="yes" rot="R270">
 <attribute name="VALUE" x="92.71" y="82.55" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="FRAME1" gate="G$1" x="0" y="0"/>
 </instances>
 <busses>
 </busses>
