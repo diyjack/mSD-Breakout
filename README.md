@@ -1,9 +1,11 @@
 # mSD-Breakout
 Breakout with microSD socket and level shifter.
 
-Shop: [mSD-Breakout](http://www.watterott.com/en/mSD-Breakout)
-
 [![mSD-Breakout](https://raw.github.com/watterott/mSD-Breakout/master/pcb/mSD-Breakout_v10.jpg)](http://www.watterott.com/en/mSD-Breakout)
+
+
+## Shop
+* [mSD-Breakout](http://www.watterott.com/en/mSD-Breakout)
 
 
 ## Features
@@ -12,10 +14,10 @@ Shop: [mSD-Breakout](http://www.watterott.com/en/mSD-Breakout)
 * on-board 3.3V voltage regulator
 
 
-## Hardware
+## Hardware and Software
 * [Schematics + Layout](https://github.com/watterott/mSD-Breakout/tree/master/pcb)
 
-* Arduino Uno Connection (Example Sketch: File->Examples->SD->CardInfo):
+* Arduino Uno Connection (Example Sketch: ```File->Examples->SD->CardInfo```):
     ```
     Uno -> Breakout
     ---------------
